@@ -1,20 +1,27 @@
 {
-  "signal_date": "2026-09-15",
+  "signal_date": "2026-09-16",
   "state": "BULL",
   "target": "TQQQ 100% (3.0x)",
   "changed": false,
-  "qqq": 704.54,
-  "ma250": 650.46,
-  "ma_gap": 8.31,
-  "upper": 656.97,
-  "lower": 617.94,
-  "vix": 17.2,
-  "vix10": 16.06,
+  "qqq": 709.88,
+  "ma250": 650.94,
+  "ma_gap": 9.05,
+  "upper": 657.45,
+  "lower": 618.4,
+  "vix": 16.84,
+  "vix10": 16.11,
   "high252": 746.16,
-  "drawdown": -5.58,
+  "drawdown": -4.86,
   "previous": "TQQQ 100% (3.0x)",
-  "data_status": "원본 최신 날짜 불일치 / 최근 공통 거래일 사용",
-  "qqq_latest": "2026-09-15",
+  "data_status": "정상",
+  "qqq_latest": "2026-09-16",
   "vix_latest": "2026-09-16",
-  "updated_at": "2026-09-16 22:23 KST"
+  "updated_at": "2026-09-16 22:51 KST",
+  "history": [
+    {
+      "date": "2026-09-16",
+      "target": "TQQQ 100% (3.0x)",
+      "previous": "TQQQ 100% (3.0x)"
+    }
+  ]
 }
