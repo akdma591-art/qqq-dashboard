@@ -207,7 +207,7 @@ async function loadDashboard() {
       </div>
 
 
-      <div class="card">
+      
 
         <div class="section-title">
           📋 최근 포지션 변경
@@ -251,7 +251,7 @@ async function loadDashboard() {
       </div>
 
 
-      <div class="card">
+      
 
         <div class="section-title">
           시장 지표
@@ -305,7 +305,7 @@ async function loadDashboard() {
       </div>
 
 
-      <div class="card">
+      
 
         <div class="section-title">
           포지션
@@ -327,13 +327,55 @@ async function loadDashboard() {
       <div class="card">
 
         <div class="section-title">
-          QQQ / MA250
+          📈 QQQ 추세 / MA250
+        </div>
+
+        <div class="label">
+          Bull +1% · Bear -5% 전환선
         </div>
 
         <img
           class="chart"
           src="qqq_ma250.png?t=${new Date().getTime()}"
           alt="QQQ MA250 Chart"
+        >
+
+      </div>
+
+
+      <div class="card">
+
+        <div class="section-title">
+          ⚡ VIX 위험도
+        </div>
+
+        <div class="label">
+          VIX10 기준 · 18 / 28 전략 임계값
+        </div>
+
+        <img
+          class="chart"
+          src="vix_vix10.png?t=${new Date().getTime()}"
+          alt="VIX VIX10 Chart"
+        >
+
+      </div>
+
+
+      <div class="card">
+
+        <div class="section-title">
+          📉 QQQ 52주 Drawdown
+        </div>
+
+        <div class="label">
+          -9% 전략 위험 기준선
+        </div>
+
+        <img
+          class="chart"
+          src="qqq_drawdown.png?t=${new Date().getTime()}"
+          alt="QQQ Drawdown Chart"
         >
 
       </div>
