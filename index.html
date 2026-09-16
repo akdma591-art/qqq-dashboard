@@ -210,6 +210,50 @@ async function loadDashboard() {
       <div class="card">
 
         <div class="section-title">
+          📋 최근 포지션 변경
+        </div>
+
+        ${
+          d.history && d.history.length > 0
+
+          ? d.history.map((item, index) => `
+
+              <div class="row">
+
+                <span class="label">
+                  ${item.date}
+                  ${index === 0 ? " · 최근" : ""}
+                </span>
+
+                <span class="value">
+                  ${item.target}
+                </span>
+
+              </div>
+
+            `).join("")
+
+          : `
+
+              <div class="row">
+                <span class="label">
+                  기록
+                </span>
+
+                <span class="value">
+                  아직 없음
+                </span>
+              </div>
+
+            `
+        }
+
+      </div>
+
+
+      <div class="card">
+
+        <div class="section-title">
           시장 지표
         </div>
 
